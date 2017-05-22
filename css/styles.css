@@ -89,7 +89,7 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
 }
 
 
@@ -134,6 +134,17 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
 }
 
 
@@ -266,6 +277,11 @@ hr {
 
 /*container*/
 
+.section {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
 .container2 {
     position: relative;
     width: 962px;
@@ -376,16 +392,19 @@ h5 {
     bottom: 12%;
     width: 24px;
     right: 12%;
+    z-index: 99;
 }
 
 
 /*footer*/
 
 footer {
-    clear: both;
-    margin: 100px auto 0;
+    float: left;
     height: 100px;
     background: #559AC8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .copy {
