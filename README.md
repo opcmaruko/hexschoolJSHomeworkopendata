@@ -3,6 +3,9 @@
 - 資料來源：http://data.kcg.gov.tw
 - 使用素材：https://hexschool.github.io/JavaScript_HomeWork/#artboard0
 
-
+## V2修改部分
+- 資料改成AJAX撈取
+- 下拉選單重複資料刪除
+- 景點按鈕JS優化
 
 
