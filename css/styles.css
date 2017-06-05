@@ -252,22 +252,28 @@ h4 {
 
 /*hr*/
 
-hr {
-    border: 1px dashed #559AC8;
+.hr {
     clear: left;
-    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 1px;
+    background-image: linear-gradient(90deg, #559AC8 50%, transparent 50%);
+    background-size: 20px 1px;
+    background-repeat: repeat-x;
+    background-position: center bottom;
 }
 
 .icons-down {
     align-content: center;
     position: relative;
-    top: -20px;
+    top: -14px;
     margin: 0 auto;
     border-radius: 50px;
     border: 1px solid #559AC8;
-    height: 24px;
-    width: 24px;
-    background: url('../img/icons_down.png')center no-repeat;
+    height: 23px;
+    width: 23px;
+    background: #fff url('../img/icons_down.png')center no-repeat;
 }
 
 .icons-down img {
@@ -400,6 +406,7 @@ h5 {
 
 footer {
     float: left;
+    /*margin: 100px auto 0;*/
     height: 100px;
     background: #559AC8;
     position: absolute;
